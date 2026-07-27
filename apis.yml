@@ -1,19 +1,48 @@
 aid: hornet
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hornet.png
 name: Hornet
-description: Hornet is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hornet is a queer social networking platform operated by Queer Networks, Inc., serving
+  the global LGBTQ+ community with more than 100 million users worldwide. The Hornet app
+  combines profiles, feeds, live video, one-on-one video chat, messaging, and location-based
+  discovery into a privacy-first digital home for gay men and the broader queer community.
+  Backed by 500 Global (and previously part of BlueCity Holdings), Hornet operates as a
+  consumer social/media company rather than an API provider — it publishes no public
+  developer API, OpenAPI, or SDKs — so this API Evangelist profile captures the company's
+  public identity, policy surface, and domain-security posture rather than developer
+  artifacts. Hornet is number one in several key markets including France, Brazil, Turkey,
+  and Taiwan, and monetizes through premium subscriptions and queer-audience advertising.
 url: https://raw.githubusercontent.com/api-evangelist/hornet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: consumer-app-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Social
+- Social Network
+- Dating
+- LGBTQ
+- Community
+- Media
+- Mobile Apps
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,26 @@ maintainers:
 common:
 - type: Website
   url: https://hornet.com
+- type: About
+  url: https://hornet.com/about/
+- type: Blog
+  url: https://hornet.com/stories/
+- type: Support
+  url: https://hornet.com/about/support/
+- type: PrivacyPolicy
+  url: https://hornet.com/about/privacy-policy/
+- type: TermsOfService
+  url: https://hornet.com/about/terms-of-service/
+- type: Login
+  url: https://next.hornet.com/login
+- type: Careers
+  url: https://hornet.com/about/jobs/
+- type: Advertise
+  url: https://hornet.com/about/advertise
+- type: DomainSecurity
+  url: security/hornet-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
