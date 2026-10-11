@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "hornet",
+    "captured_at": "2026-10-11T190221",
+    "source_url": "https://hornet.com",
+    "source_type": "Website",
+    "file": "hornet-2026-10-11T190221.png",
+    "bytes": 168794,
+    "capture": "playwright-local"
+  }
+]
